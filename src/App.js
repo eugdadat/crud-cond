@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './App.css';
-import Login from './components/login';
+import Login from './components/login/login';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -24,4 +24,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
